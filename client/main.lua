@@ -187,7 +187,7 @@ function prendre(propObject, hash)
 		end
 
 		if IsPedDeadOrDying(PlayerPedId()) then
-			ClearPedTasksImmediately(PlayerPedId())
+-- 			ClearPedTasksImmediately(PlayerPedId())
 			SetVehicleExtra(propObject, 1, 1)
 			SetVehicleExtra(propObject, 2, 0)
 			DetachEntity(propObject, true, true)
